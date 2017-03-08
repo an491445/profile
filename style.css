@@ -1,0 +1,111 @@
+body {
+  background-color: #dadcda;
+  font-family: "Open Sans";
+  font-size: 0.8em;
+  color: #404040;
+  line-height: 150%;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.card-grey {
+  background-color: transparent;
+}
+
+.card-white {
+  background: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px 0px #b0b2b0;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.img-round {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #dadcda;
+}
+
+.img-table-item {
+  width: 100px;
+}
+
+.table-list td {
+  padding: 10px;
+}
+
+h1 {
+  color: #041C22;
+  font-size: 1.6em;
+}
+
+h2 {
+  color: #435f66;
+  font-size: 1.3em;
+  line-height: 60%;
+}
+
+h3 {
+  color: #848484;
+  font-size: 1.1em;
+  line-height: 60%;
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+}
+
+a {
+  color: #77b18a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #dadcda;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline i {
+  font-size: 1.6em;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline a {
+  color: white;
+}
+
+.list-inline a:hover {
+  color: #77b18a;
+}
+
+.btn {
+  background: #77b18a;
+  color: white;
+  padding: 10px;
+  line-height: 300%;
+}
+
+a.btn:hover {
+  color: white;
+  background: #dadcda;
+}
